@@ -44,7 +44,7 @@
     <div class="journey-copy"><h2>一段往事，<br>在讲述与倾听间延续。</h2><p class="muted">跟着陈守义和女儿，走过七个界面。<br>从教女儿骑车的回忆，到留给她的一封有声信。</p>
       <div class="journey-chapters"><span>讲述者 · 记录、核对、读取</span><span>倾听者 · 对话、补充、收信</span></div>
       <div class="journey-steps" role="tablist" aria-label="查看产品流程" aria-orientation="vertical">
-        <button role="tab" id="step-1" aria-selected="true" aria-controls="journey-view" data-step="0"><span>01</span><strong>录音与设备</strong><em>连接设备，自然说 · 录音与设备弹窗示意</em><b>↗</b></button>
+        <button role="tab" id="step-1" aria-selected="true" aria-controls="journey-view" data-step="0"><span>01</span><strong>录音与设备</strong><em>连接设备，自然说 · 录音与 SDK 已实测</em><b>↗</b></button>
         <button role="tab" id="step-2" aria-selected="false" aria-controls="journey-view" data-step="1" tabindex="-1"><span>02</span><strong>核对文字</strong><em>陈守义讲起教女儿骑车的那一天</em><b>↗</b></button>
         <button role="tab" id="step-3" aria-selected="false" aria-controls="journey-view" data-step="2" tabindex="-1"><span>03</span><strong>读取记忆</strong><em>按时间回看，循着依据回听原音</em><b>↗</b></button>
         <button role="tab" id="step-4" aria-selected="false" aria-controls="journey-view" data-step="3" tabindex="-1"><span>04</span><strong>花田可视化</strong><em>记忆在此汇合 · 每段故事，成为一朵花</em><b>↗</b></button>
@@ -52,20 +52,28 @@
         <button role="tab" id="step-6" aria-selected="false" aria-controls="journey-view" data-step="5" tabindex="-1"><span>06</span><strong>亲友多视角</strong><em>同一段往事，听听女儿的视角</em><b>↗</b></button>
         <button role="tab" id="step-7" aria-selected="false" aria-controls="journey-view" data-step="6" tabindex="-1"><span>07</span><strong>数字托付</strong><em>留给女儿的一封有声信 · 信封与录音示意</em><b>↗</b></button>
       </div>
-      <p class="journey-context" id="journey-context">从一次自然讲述开始，留住声音和故事的起点。此图为录音与设备连接的界面示意。</p>
+      <p class="journey-context" id="journey-context">录音能力与录音豆 SDK 接入已测试成功。这里展示 App 中的录音与设备连接过程。</p>
     </div>
     <div id="journey-view" role="tabpanel" aria-labelledby="step-1" class="journey-visual simulator">
       <div class="simulator-top"><span class="visual-kicker">REMEMBER ME / 手机预览</span><span class="simulator-person" id="journey-role">讲述者 · 陈守义</span></div>
       <div class="phone-device"><span class="device-key device-key-volume" aria-hidden="true"></span><span class="device-key device-key-power" aria-hidden="true"></span><button id="screen-open" class="phone" aria-label="放大查看：录音与设备界面"><img id="journey-image" src="assets/screen-1.png" alt="陈守义的录音与录音豆设备弹窗界面示意" loading="lazy" width="841" height="1870"></button></div>
       <div class="simulator-controls"><button id="screen-prev" aria-label="上一张界面">←</button><div><span id="journey-count">01 / 07</span><p id="journey-caption" aria-live="polite">录音与设备</p></div><button id="screen-next" aria-label="下一张界面">→</button></div>
       <button id="screen-enlarge" class="screen-enlarge">⤢ 放大查看界面</button>
-      <p class="visual-note" id="journey-note">界面示意 · 点击步骤或箭头切换</p>
+      <p class="visual-note" id="journey-note">录音与 SDK 接入已测试通过</p>
     </div>
   </div>
 </section>
 <section class="understand section"><div class="wrap"><div class="section-top"><p class="eyebrow">04 / 一段记忆如何被理解</p><span class="side-note">从声音到回答，始终连着来源</span></div><h2>留下故事。<br>也慢慢理解，故事里的你。</h2><div class="pipeline"><article><span>01 / CAPTURE</span><h3>记录</h3><p>保留原音与讲述情境</p></article><i aria-hidden="true">→</i><article><span>02 / REVIEW</span><h3>核对</h3><p>转写与校对，由本人确认</p></article><i aria-hidden="true">→</i><article><span>03 / MEMORY</span><h3>记忆</h3><p>提取事件、关系与观点</p></article><i aria-hidden="true">→</i><article><span>04 / UNDERSTAND</span><h3>理解</h3><p>带着背景，保留变化与例外</p></article><i aria-hidden="true">→</i><article><span>05 / REVISIT</span><h3>回望</h3><p>按授权浏览、回听与提问</p></article></div><div class="loop-note"><span aria-hidden="true">↳</span><p>新的讲述与本人的修订，会继续更新相关记忆与人物理解。</p></div></div></section>
 <section id="principles" class="principles section wrap"><div class="section-top"><p class="eyebrow">05 / 我们的坚持</p><span class="side-note">记住一个人，也尊重一个人</span></div><div class="principles-layout"><div class="principles-title"><h2>真实在先。<br>意愿在先。</h2><img src="assets/botanical.webp" alt="一枝淡蓝色的勿忘我" loading="lazy"></div><div class="principle-list"><article><span>01</span><div><h3>能听原话，就先听原话</h3><p>原始片段能回答时，优先呈现本人讲述。推测会明确标注，证据不足就承认未知。</p></div></article><article><span>02</span><div><h3>你的故事，由你决定</h3><p>重要内容可检查、修正、删除。谁能看、能问什么，都应在本人的授权范围内。</p></div></article><article><span>03</span><div><h3>不同的人，保留不同的视角</h3><p>本人讲述、亲友补充与 AI 推断分别标注。亲友的记忆，不会悄悄变成你的事实。</p></div></article><article><span>04</span><div><h3>声音的使用，需要单独同意</h3><p>录音与声音合成分别授权。Twin 的回答不代表新的本人意愿，也不能替代本人作出决定。</p></div></article></div></div></section>
-<section id="faq" class="faq section wrap"><div><p class="eyebrow">一些你可能关心的事</p><h2>关于 Remember Me</h2></div><div class="faq-list"><details><summary>这是一个录音转文字的工具吗？<span aria-hidden="true">＋</span></summary><p>录音和转写是起点。Remember Me 想让声音成为有来源、可核对的记忆，再逐步形成对一个人的经历、关系、偏好与表达方式的理解。</p></details><details><summary>网页里的对话是真实 AI 回答吗？<span aria-hidden="true">＋</span></summary><p>本页故事区是固定示例，不连接产品账号或 AI 服务。手机预览使用最新提供的陈守义七界面图片：Twin 页为真实产品对话截图，其余为基于真实 UI 的排版示意。陈守义及亲友故事均为虚构演示内容，图片中的按钮不执行真实 App 操作。</p></details><details><summary>现在已经可以体验哪些功能？<span aria-hidden="true">＋</span></summary><p>项目已进行录音、转写核对、记忆整理、人物理解、来源问答、授权分享与声音播放的原型验证。当前仍是内测试用；不同客户端的完成范围与稳定性存在差异。本页不提供正式版下载或注册。</p></details><details><summary>录音豆和完整数字托付上线了吗？<span aria-hidden="true">＋</span></summary><p>录音豆能力与 SDK 接入仍在验证；手机录音可作为独立入口。当前展示专属留言，完整的条件托付、认领与身后人格基线冻结属于后续规划。</p></details></div></section>
+<section id="faq" class="faq section wrap">
+  <div><p class="eyebrow">一些你可能关心的事</p><h2>关于 Remember Me</h2></div>
+  <div class="faq-list">
+    <details><summary>这是一个录音转文字的工具吗？<span aria-hidden="true">＋</span></summary><p>录音和转写是起点。Remember Me 会把讲述整理成有来源、可核对的记忆，保留原音与文字依据，并支持围绕这些记忆进行 Twin 对话。</p></details>
+    <details><summary>产品演示中的对话是真实 AI 回答吗？<span aria-hidden="true">＋</span></summary><p>是的。产品演示中的录音、转写、记忆整理与 Twin 对话，来自我们使用 Remember Me App 进行的实际测试。Twin 回答由 App 中的 AI 基于已记录的记忆生成，并保留来源依据与「根据记忆推测」等标注。</p></details>
+    <details><summary>现在已经可以使用哪些功能？<span aria-hidden="true">＋</span></summary><p>已在 App 中完成录音采集、转写核对、记忆整理与读取、原音回听及 Twin 对话等流程的测试。网页中的产品界面与短片展示了这些实际使用过程。</p></details>
+    <details><summary>录音豆和 SDK 已经接入了吗？<span aria-hidden="true">＋</span></summary><p>已经接入并测试成功。当前录音能力与录音豆 SDK 接入均已通过实际测试，可在 App 中连接设备并进行录音采集。</p></details>
+  </div>
+</section>
 <section class="closing wrap"><img src="assets/flower.webp" alt="" aria-hidden="true" loading="lazy"><p class="eyebrow">FOR EVERY STORY WORTH REMEMBERING</p><h2>平凡的一生，<br>也值得被好好记得。</h2><a class="button primary" href="#demo">再走进一段记忆 <span aria-hidden="true">↗</span></a></section>
 </main>
 <footer class="footer wrap"><a class="brand" href="#home"><img src="assets/mark.svg" alt="" width="40" height="40"><span>勿忘我<small>REMEMBER ME</small></span></a><div><p>张天霁 · 刘修贤 · 康欣 · 王昊宇</p><small>Anker 首届黑客松挑战赛 · 勿忘我团队作品</small></div><a href="#home">回到顶部 ↑</a></footer>

@@ -46,7 +46,7 @@ byId('source-toggle').addEventListener('click', () => {
 const waveform = document.querySelector('.waveform');
 for (let i = 0; i < 63; i++) { const bar = document.createElement('i'); bar.style.height = `${8 + Math.abs(Math.sin(i * 1.7) * Math.cos(i * .39)) * 42}px`; waveform.append(bar); }
 const steps = [
- { title: '录音与设备', role: '讲述者 · 陈守义', alt: '陈守义的录音与录音豆设备弹窗界面示意', note: '界面示意 · 设备能力仍在验证', context: '从一次自然讲述开始，留住声音和故事的起点。此图为录音与设备连接的界面示意。' },
+ { title: '录音与设备', role: '讲述者 · 陈守义', alt: '陈守义的录音与录音豆设备弹窗界面', note: '录音与 SDK 接入已测试通过', context: '录音能力与录音豆 SDK 接入已测试成功。这里展示 App 中的录音与设备连接过程。' },
  { title: '核对文字', role: '讲述者 · 陈守义', alt: '陈守义核对教女儿骑车那段录音的文字界面', note: '基于真实 UI 的排版示意', context: '“我越喊，她越不肯蹬。”陈守义讲起教女儿骑车那天的争执，先核对文字，再保存到记忆。' },
  { title: '读取记忆', role: '讲述者 · 陈守义', alt: '教女儿骑车的记忆与核对文字依据界面', note: '基于真实 UI 的排版示意', context: '整理后的记忆保留核对文字依据，可回听完整原音。系统归纳与本人原话，在界面中分别呈现。' },
  { title: '花田可视化', role: '记忆在此汇合', alt: '陈守义的故事花田，两朵勿忘我分别承载不同记忆', note: '基于真实 UI 的排版示意', context: '“车没往前走，我先急了。”每段故事成为一朵花，沿着花径，可以重新走进那段往事。' },
